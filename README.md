@@ -28,6 +28,12 @@ mindmap
       6 Advantages
       Deployment Models
       Service Models
+    Infrastructure Basics
+      Compute, Storage, Network
+      SPOF & Fault Tolerance
+      Server Types
+      Clustering
+      Virtualization
     Infrastructure
       Regions & AZs
       Data Centers
@@ -60,6 +66,7 @@ mindmap
 | 04 | [Cloud Adoption Framework](./docs/04-cloud-adoption-framework.md) | AWS CAF perspectives, transformation value chain, and adoption phases |
 | 05 | [Well-Architected Framework](./docs/05-well-architected-framework.md) | Six pillars, serverless best practices, IAM, data protection |
 | 06 | [AWS Ecosystem](./docs/06-aws-ecosystem.md) | Free tools, Support plans, Marketplace, Training, Partner Network, AMS |
+| 07 | [Infrastructure Fundamentals](./docs/07-infrastructure-fundamentals.md) | SPOF, fault tolerance, server types, clustering, multi-tier architecture, and virtualization |
 
 ---
 
@@ -80,6 +87,7 @@ mindmap
 | **6 Advantages** | CapEx → OpEx · Economies of scale · No capacity guessing · Speed & agility · Stop running DCs · Go global in minutes |
 | **Deployment Models** | Public (shared) · Private (single org) · Hybrid (both) |
 | **Service Models** | IaaS (you manage OS/apps) · PaaS (you manage app logic) · SaaS (just use it) |
+| **Infrastructure Basics** | 3 components (Compute, Storage, Network) · SPOF · RAID · Tower/Rack/Blade · Clustering (HA, LB, HPC) · Virtualization |
 | **Infrastructure** | 36 Regions → 3–6 AZs each → Data Centers · 400+ Edge Locations |
 | **Pricing** | Pay as you go · Reserve (up to 75% off) · Volume discounts · Prices drop as AWS grows |
 | **CAF Perspectives** | Business · People · Governance · Platform · Security · Operations |

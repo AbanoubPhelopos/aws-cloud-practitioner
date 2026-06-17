@@ -69,6 +69,7 @@ mindmap
 | 07  | [Infrastructure](./docs/07-infrastructure.md)                         | SPOF, fault tolerance, server types, clustering, multi-tier architecture                      |
 | 08  | [Virtualization](./docs/08-virtualization.md)                         | Virtualization concepts, hypervisors, network/storage/OS virtualization, container technology |
 | 09  | [Virtualization Advanced](./docs/09-virtualization-advanced.md)      | Anti-patterns, Linux namespaces, Cgroups, microservices, Kubernetes orchestration, live migration |
+| 10  | [Network & Storage](./docs/10-network-storage.md) | Network Virtualization vs NFV by OSI layer, cross-layer technologies, storage virtualization spectrum |
 
 ---
 
@@ -92,6 +93,7 @@ mindmap
 | **Infrastructure Basics**    | 3 components (Compute, Storage, Network) · SPOF · RAID · Tower/Rack/Blade · Clustering (HA, LB, HPC) · Virtualization |
 | **Virtualization**           | Type 1 (Bare Metal, Ring 0) vs Type 2 (Hosted, Ring 3) · NV/NFV/SDN · LVM · Containers (Docker, Kubernetes)              |
 | **Virtualization Advanced**  | Anti-patterns · Linux Namespaces/Cgroups · Microservices · Kubernetes · Live Migration · $2.5M ROI                      |
+| **Network/Storage**| NV vs NFV by OSI layer · SDN/SD-WAN/Service Mesh · Storage spectrum (Device/Host/Network/Comprehensive)                 |
 | **Infrastructure**           | 36 Regions → 3–6 AZs each → Data Centers · 400+ Edge Locations                                                        |
 | **Pricing**                  | Pay as you go · Reserve (up to 75% off) · Volume discounts · Prices drop as AWS grows                                 |
 | **CAF Perspectives**         | Business · People · Governance · Platform · Security · Operations                                                     |

@@ -70,6 +70,8 @@ mindmap
 | 08  | [Virtualization](./docs/08-virtualization.md)                         | Virtualization concepts, hypervisors, network/storage/OS virtualization, container technology |
 | 09  | [Virtualization Advanced](./docs/09-virtualization-advanced.md)      | Anti-patterns, Linux namespaces, Cgroups, microservices, Kubernetes orchestration, live migration |
 | 10  | [Network & Storage](./docs/10-network-storage.md) | Network Virtualization vs NFV by OSI layer, cross-layer technologies, storage virtualization spectrum |
+| 11  | [Amazon EC2](./docs/11-amazon-ec2.md) | EC2 instances, capabilities, instance types, user data scripts, pricing models, and lifecycle |
+| 12  | [EC2 Instance Types](./docs/12-ec2-instance-types.md) | 6 instance categories, naming convention (m5.2xlarge), configuration attributes, right sizing |
 
 ---
 
@@ -94,6 +96,8 @@ mindmap
 | **Virtualization**           | Type 1 (Bare Metal, Ring 0) vs Type 2 (Hosted, Ring 3) · NV/NFV/SDN · LVM · Containers (Docker, Kubernetes)              |
 | **Virtualization Advanced**  | Anti-patterns · Linux Namespaces/Cgroups · Microservices · Kubernetes · Live Migration · $2.5M ROI                      |
 | **Network/Storage**| NV vs NFV by OSI layer · SDN/SD-WAN/Service Mesh · Storage spectrum (Device/Host/Network/Comprehensive)                 |
+| **Amazon EC2**     | Virtual servers (IaaS) · 5 categories (GP/CO/MO/SO/GPU) · User Data · EBS/ELB/ASG · 5 pricing models                   |
+| **EC2 Instance Types** | 6 categories (GP/CO/MO/AC/SO/HPC) · Naming: m5.2xlarge · Right sizing (start small, scale up)                       |
 | **Infrastructure**           | 36 Regions → 3–6 AZs each → Data Centers · 400+ Edge Locations                                                        |
 | **Pricing**                  | Pay as you go · Reserve (up to 75% off) · Volume discounts · Prices drop as AWS grows                                 |
 | **CAF Perspectives**         | Business · People · Governance · Platform · Security · Operations                                                     |

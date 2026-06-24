@@ -76,6 +76,7 @@ mindmap
 | 14  | [EC2 Security & Storage](./docs/14-ec2-security-storage.md) | Security Groups, EBS volumes, snapshots, AMIs, Image Builder, Instance Store, EFS, FSx |
 | 15  | [Scalability & HA](./docs/15-scalability-high-availability.md) | Vertical vs horizontal scaling, high availability, scalability vs elasticity vs agility |
 | 16  | [Load Balancing & Auto Scaling](./docs/16-load-balancing-auto-scaling.md) | ALB/NLB/GWLB load balancers, ASG scaling strategies (Manual/Step/Target/Scheduled/Predictive) |
+| 17  | [VM vs Container Security](./docs/17-vm-vs-container-security.md) | VM vs Container architecture, isolation levels, security implications, root vs rootless containers |
 
 ---
 
@@ -106,6 +107,7 @@ mindmap
 | **EC2 Security/Storage**| Security Groups · EBS Volumes · Snapshots · AMIs · Image Builder · Instance Store · EFS · FSx                       |
 | **Scalability & HA**     | Vertical vs Horizontal scaling · High Availability (multi-AZ) · Elasticity vs Agility · ASG + ELB                     |
 | **Load Balancing & ASG** | ALB (L7) · NLB (L4) · GWLB (L3) · 5 ASG scaling strategies (Manual/Step/Target/Scheduled/Predictive)                  |
+| **VM vs Container Security** | VM 100% isolation vs Container 80% · Shared kernel vulnerability · Docker vs Podman · House vs Apartment analogy    |
 | **Infrastructure**           | 36 Regions → 3–6 AZs each → Data Centers · 400+ Edge Locations                                                        |
 | **Pricing**                  | Pay as you go · Reserve (up to 75% off) · Volume discounts · Prices drop as AWS grows                                 |
 | **CAF Perspectives**         | Business · People · Governance · Platform · Security · Operations                                                     |

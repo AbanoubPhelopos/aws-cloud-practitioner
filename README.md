@@ -75,6 +75,7 @@ mindmap
 | 13  | [EC2 Purchasing Options](./docs/13-ec2-purchasing-options.md) | 7 pricing options: On-Demand, Reserved, Savings Plans, Spot, Dedicated Hosts/Instances, Capacity Reservations |
 | 14  | [EC2 Security & Storage](./docs/14-ec2-security-storage.md) | Security Groups, EBS volumes, snapshots, AMIs, Image Builder, Instance Store, EFS, FSx |
 | 15  | [Scalability & HA](./docs/15-scalability-high-availability.md) | Vertical vs horizontal scaling, high availability, scalability vs elasticity vs agility |
+| 16  | [Load Balancing & Auto Scaling](./docs/16-load-balancing-auto-scaling.md) | ALB/NLB/GWLB load balancers, ASG scaling strategies (Manual/Step/Target/Scheduled/Predictive) |
 
 ---
 
@@ -104,6 +105,7 @@ mindmap
 | **EC2 Purchasing**   | 7 options: On-Demand (0%), Reserved (72%), Savings Plans, Spot (90%), Dedicated, Capacity Reservations                |
 | **EC2 Security/Storage**| Security Groups · EBS Volumes · Snapshots · AMIs · Image Builder · Instance Store · EFS · FSx                       |
 | **Scalability & HA**     | Vertical vs Horizontal scaling · High Availability (multi-AZ) · Elasticity vs Agility · ASG + ELB                     |
+| **Load Balancing & ASG** | ALB (L7) · NLB (L4) · GWLB (L3) · 5 ASG scaling strategies (Manual/Step/Target/Scheduled/Predictive)                  |
 | **Infrastructure**           | 36 Regions → 3–6 AZs each → Data Centers · 400+ Edge Locations                                                        |
 | **Pricing**                  | Pay as you go · Reserve (up to 75% off) · Volume discounts · Prices drop as AWS grows                                 |
 | **CAF Perspectives**         | Business · People · Governance · Platform · Security · Operations                                                     |

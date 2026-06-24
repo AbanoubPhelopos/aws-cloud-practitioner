@@ -74,6 +74,7 @@ mindmap
 | 12  | [EC2 Instance Types](./docs/12-ec2-instance-types.md) | 6 instance categories, naming convention (m5.2xlarge), configuration attributes, right sizing |
 | 13  | [EC2 Purchasing Options](./docs/13-ec2-purchasing-options.md) | 7 pricing options: On-Demand, Reserved, Savings Plans, Spot, Dedicated Hosts/Instances, Capacity Reservations |
 | 14  | [EC2 Security & Storage](./docs/14-ec2-security-storage.md) | Security Groups, EBS volumes, snapshots, AMIs, Image Builder, Instance Store, EFS, FSx |
+| 15  | [Scalability & HA](./docs/15-scalability-high-availability.md) | Vertical vs horizontal scaling, high availability, scalability vs elasticity vs agility |
 
 ---
 
@@ -102,6 +103,7 @@ mindmap
 | **EC2 Instance Types** | 6 categories (GP/CO/MO/AC/SO/HPC) · Naming: m5.2xlarge · Right sizing (start small, scale up)                       |
 | **EC2 Purchasing**   | 7 options: On-Demand (0%), Reserved (72%), Savings Plans, Spot (90%), Dedicated, Capacity Reservations                |
 | **EC2 Security/Storage**| Security Groups · EBS Volumes · Snapshots · AMIs · Image Builder · Instance Store · EFS · FSx                       |
+| **Scalability & HA**     | Vertical vs Horizontal scaling · High Availability (multi-AZ) · Elasticity vs Agility · ASG + ELB                     |
 | **Infrastructure**           | 36 Regions → 3–6 AZs each → Data Centers · 400+ Edge Locations                                                        |
 | **Pricing**                  | Pay as you go · Reserve (up to 75% off) · Volume discounts · Prices drop as AWS grows                                 |
 | **CAF Perspectives**         | Business · People · Governance · Platform · Security · Operations                                                     |
